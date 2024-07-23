@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:fontFamily="@font/abhaya_libre"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:fontFamily="@font/abhaya_libre"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/details"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:minHeight="48sp"
+        android:padding="10sp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48sp"
+        android:drawableStart="@drawable/baseline_home_24"
+        android:layout_margin="15sp"
+        android:inputType="text"
+        android:hint="@string/address"
+        android:padding="10sp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:ems="10"
+        android:hint="@string/enter_your_date_of_birth"
+        android:inputType="date"
+        android:minHeight="48sp"
+        android:padding="10sp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:ems="10"
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone"
+        android:minHeight="48sp"
+        android:padding="10sp"
+        android:textSize="18sp"
+        android:maxLength="11"
+        android:drawableStart="@drawable/baseline_phone_24"/>
+
+    <Button
+        android:id="@+id/rejbut"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:textSize="20sp"
+        android:padding="10sp"
+        />
+
+</LinearLayout>

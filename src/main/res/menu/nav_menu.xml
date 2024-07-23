@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/twotone_home_24"
+        />
+    <item android:icon="@drawable/baseline_pending_actions_24"
+        android:title="@string/pending_tasks"
+        android:id="@+id/pendng"/>
+    <item android:id="@+id/goal"
+        android:title="@string/goals"
+        android:icon="@drawable/baseline_golf_course_24"/>
+
+
+</group>
+    <item android:title="@string/profile">
+        <menu>
+            <group>
+                <item android:title="@string/my_details"
+                    android:icon="@drawable/baseline_person_24"
+                    android:id="@+id/details"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/social">
+        <menu>
+            <group>
+                <item android:title="@string/linkedin"
+                    android:id="@+id/linkedin"
+                    />
+                <item android:id="@+id/facebook"
+                    android:title="@string/facebook"/>
+                <item android:title="@string/instagram"
+                    android:id="@+id/insta"/>
+                <item android:id="@+id/youtube"
+                    android:title="@string/youtube"/>
+            </group>
+        </menu>
+    </item>
+</menu>
